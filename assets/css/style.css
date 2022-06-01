@@ -15,6 +15,13 @@ html{
 #header {
     height: 46px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav {
+    display: inline-block;
 }
 
 #nav,.subnav{
@@ -65,13 +72,31 @@ html{
     background-color: #ccc;
     color: #000;
 }
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#header .search-button {
+    float :right;
+    padding:0 21px;
+}
+
+#header .search-button:hover{
+    background-color: #f44336!important;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color:#fff;
+    line-height: 46px;
+    font-size: 20px;
+}
 
 #slider {
-
+    margin-top: 46px;
 }
 
 #content {
-
+    
 }
 
 #footer {
