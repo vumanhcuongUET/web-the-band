@@ -19,6 +19,7 @@ html{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 #nav {
     display: inline-block;
@@ -92,7 +93,31 @@ html{
 }
 
 #slider {
+    position: relative;
     margin-top: 46px;
+    padding-top: 50% ;
+    background: url('/assets/image/slider1/ny.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+
+}
+
+#slider .text-heading{
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #content {
